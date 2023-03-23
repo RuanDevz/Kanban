@@ -5,16 +5,115 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="imagens/Vector.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
     <title>Vertigo - Kanban</title>
 </head>
 <body>
     <main>
-        <section>
-            <div>
+        <section class="container-header">
+            <div class="vertigo-cabecalho">
                 <img src="imagens/Vector.png" alt="Logo">
+                <i id="" class="fa-solid fa-bars"></i>
+            </div>
+            <ul>
+                <li>Boards</li>
+                <li>Equipes</li>
+                <li>Relatórios</li>
+                <li>Ajustes</li>
+            </ul>
+        </section>
+        <section>
+            <div class="vertigo-titles">
+                <h1>Meu Kaban</h1>
+                <img src="imagens/editar.png" alt="editar">
+            </div>
+            <div class="profile">
+                <img src="imagens/Profile.png" alt="Profile">
+            </div>
+            
+            <form class="pesquisar">
+                <button><p>Filtrar</p></button>
+                <img src="imagens/filter.png" alt="Filtrar">
+                <label for="Search"></label>
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" name="Search" id="Search" placeholder="Cards, Assuntos, Responsáveis...">
+            </form>
+        </section>
+        <section class="container-fazer">
+            <h2> A fazer</h2>
+            <div>
+                <h3>#BoraCodar um Kanban 🧑‍💻</h3>
+                <p>Novo desafio do #BoraCodar da Rocketseat, onde é proposto contruir...</p>
+                <div>
+                    <p>Rocketseat</p>
+                    <p>Desafio</p>
+                </div>
+            </div>
+            <div>
+                <h3>Manter a ofensiva 🔥</h3>
+                <p>Manter minha atividade na plataforma da Rocketseat para não perder a...</p>
+                <div>
+                    <p>Rocketseat</p>
+                </div>
+            </div>
+            <div>
+                <h3>Almoçar 🥗</h3>
+                <p>Me alimentar, aproveitando um momento de descando para recarregar...</p>
+                <div>
+                    <p>Auto cuidado</p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2>Fazendo</h2>
+            <div>
+                <h3>Conferir o novo desafio 🚀 </h3>
+                <p>Conferir o novo projeto do #boraCodar para fazê-lo da melhor maneira possível</p>
+                <div>
+                    <p>Rocketseat</p>
+                    <p>Desafio</p>
+                </div>
+            </div>
+            <div>
+                <h3>Ser inscrível 😎</h3>
+                <p>Sempre me lembrar de manter minha autenticidade e espalhar amor</p>
+                <div>
+                    <p>Auto cuidado</p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h3>Feito</h3>
+            <div>
+                <h3>#BoraCodar uma página de login 🧑‍💻</h3>
+                <p>Novo desafio do #boraCodar da Rocketseat, onde é proposto construir...</p>
+                <div>
+                    <p>Rocketseat</p>
+                    <p>Desafio</p>
+                </div>
+            </div>
+            <div>
+                <h3>#boraCodar uma página de clima 🧑‍💻</h3>
+                <p>Novo desafio do #boraCodar da Rocketseat, onde é proposto construir um quadro de Kanban.</p>
+                <div>
+                    <p>Rocketseat</p>
+                    <p>Desafio</p>
+                </div>
+            </div>
+            <div>
+                <h3>#boraCodar um conversor 🧑</h3>
+                <p>Novo desafio do #boraCodar da Rocketseat, onde é proposto construir...</p>
+                <div>
+                    <p>Rocketseat</p>
+                    <p>Desafio</p>
+                </div>
             </div>
         </section>
     </main>
+    <footer>Site desenvolvido por <a href="">RuanDevz</a> com a <a href="">Rocketseat</a></footer>
 </body>
 </html>
