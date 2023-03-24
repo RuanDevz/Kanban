@@ -93,8 +93,89 @@ ul{
     margin: 0 auto;
 }
 
+.container-fazendo{
+    max-width: 360px;
+    margin: 0 auto;
+}
+
+.container-feito{
+    max-width: 360px;
+    margin: 0 auto;
+}
+
 .container-fazer h2{
     padding-top: 50px;
     padding-bottom: 20px;
     text-align: center;
+}
+
+.container-fazendo h2{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.container-feito h2{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.container_bloco{
+    background:#FBFAFF ;
+}
+
+div#bloco{
+    padding: 20px;
+    background-color: white;
+    margin: 15px;
+    -webkit-box-shadow: 4px 4px 17px -1px rgba(0,0,0,0.35);
+    -moz-box-shadow: 4px 4px 17px -1px rgba(0,0,0,0.35);
+    box-shadow: 4px 4px 17px -1px rgba(0,0,0,0.35);
+}
+
+.sub-titles{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+
+.sub-titles p{
+    background: #E2D6FF;
+    color: #7C3AED;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.sub-titles-solo{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.sub-titles-solo{
+    background: #E2D6FF;
+    color: #7C3AED;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    background: rgb(48, 48, 48);
+    margin-top: 50px;
+
+}
+
+footer p{
+    color: white;
+    font-size: 1.1em;
+}
+
+footer a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #7C3AED;
 }
