@@ -46,10 +46,15 @@ editar.addEventListener('click', () => {
 });
 
 function togglemenu(){
+
   if(lista.style.display === 'none'){
     lista.style.display = 'block';
+    menu.classList.remove('fa-bars')
+    menu.classList.add('fa-xmark')
   } else{
     lista.style.display = 'none';
+    menu.classList.remove('fa-xmark')
+    menu.classList.add('fa-bars')
   }
 }
 
