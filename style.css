@@ -21,20 +21,43 @@
 }
 
 .fa-bars{
+    cursor: pointer;
     font-size: 2em;
     color: #fff;
 }
 
+
+
 ul{
     display: none;
+    color: white;
+    list-style-type: none;
+    margin-left: 10px;
+    margin-bottom: 50px;
+}
+
+ul li{
+    margin: 30px 0px;
+}
+
+
+h1#nome{
+    text-align: center;
+}
+
+img#editar{
+    position: absolute;
+    transform: translate(390%, 5%);
 }
 
 .vertigo-titles{
     display: flex;
     justify-content: center;
+    position: relative;
     gap: 15px;
     padding: 15px;
 }
+
 
 .profile{
     display: flex;
