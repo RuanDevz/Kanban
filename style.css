@@ -93,12 +93,6 @@ img#editar{
     align-items: center;
 }
 
-.pesquisar img{
-    position: absolute;
-    transform: translate(-680%, -2%);
-    background-color: #7C3AED;
-}
-
 .pesquisar input{
     padding: 12px;
     position: relative;
@@ -128,9 +122,7 @@ img#editar{
 }
 
 .pesquisar button p{
-    position: relative;
-    transform: translate(29%, -9%);
-    font-size: 1.1em;
+    text-align: center;
 }
 
 .container-fazer{
@@ -223,4 +215,93 @@ footer a{
     text-decoration: none;
     font-weight: bold;
     color: #7C3AED;
+}
+
+@media screen and (min-width: 1280px) {
+    body{
+        overflow-x: hidden;
+    }
+    .fa-bars{
+        display: none;
+    }
+
+    .container-header{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 15%;
+        background:;
+        overflow-y: auto; /* add this to enable vertical scrolling if needed */
+        height: 107.5vh;
+    }
+
+    .container_bloco{
+        display: flex;
+        margin-left: 190px;
+        max-width: 1090px;
+    }
+
+    h2#titulo{
+        padding: 0;
+        text-align: left;
+        margin-left: 35px;
+        padding-top: 35px;
+    }
+
+    .container_first{
+        max-width: 1090px;
+        margin-left: 190px;
+        padding: 50px 0px;
+    }
+
+    .vertigo-cabecalho{
+        display: flex;
+        justify-content: left;
+        margin-left: 50px;
+    }
+
+    .vertigo-titles{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .vertigo-titles h1{
+        font-size: 2em;
+        margin-left: 30px;
+    }
+
+    img#editar{
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: translate(1000%, 90%);
+    }
+
+    ul{
+        display: flex;
+        flex-direction: column;
+        margin-left: 34px;
+        margin-top: 40px;
+    }
+
+    .pesquisar{
+        display: block;
+    }
+    .pesquisar input{
+        width: 70vw;
+        position: absolute;
+        left: 50%;
+        transform: translate(-31%, -8%);
+    }
+
+    button#filtrar{
+        position: absolute;
+        left: 20%;
+        transform: translate(-32%, -8%);
+    }
+    
+    footer{
+        margin: 0;
+        padding: 30px 0px;
+    }
 }
