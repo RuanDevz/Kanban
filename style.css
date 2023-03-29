@@ -230,7 +230,6 @@ footer a{
         top: 0;
         bottom: 0;
         width: 15%;
-        background:;
         overflow-y: auto; /* add this to enable vertical scrolling if needed */
         height: 107.5vh;
     }
