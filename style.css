@@ -230,7 +230,7 @@ footer a{
         top: 0;
         bottom: 0;
         width: 15%;
-        overflow-y: auto; /* add this to enable vertical scrolling if needed */
+        overflow-y: auto;
         height: 107.5vh;
     }
 
@@ -281,6 +281,11 @@ footer a{
         flex-direction: column;
         margin-left: 34px;
         margin-top: 40px;
+    }
+
+    ul li{
+        margin: 0;
+        margin-top: 13px;
     }
 
     .pesquisar{
