@@ -169,6 +169,7 @@ div#bloco{
     -webkit-box-shadow: 4px 4px 17px -1px rgba(0,0,0,0.35);
     -moz-box-shadow: 4px 4px 17px -1px rgba(0,0,0,0.35);
     box-shadow: 4px 4px 17px -1px rgba(0,0,0,0.35);
+    border-radius: 8px;
 }
 
 .sub-titles{
