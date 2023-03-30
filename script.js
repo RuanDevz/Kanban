@@ -21,9 +21,24 @@ editar.addEventListener('click', () => {
     input.style.fontFamily ='Inter';
     input.style.fontSize = '1.5em';
     input.style.fontWeight = 'bolder';
-    input.style.outline = '0';
+    input.style.outline = '0'
     input.style.textDecoration = 'underline';
-    input.maxLength = '10'
+    input.maxLength = '11';
+    input.style.background = '#FBFAFF'
+
+    if (window.matchMedia("(min-width: 1280px)").matches) {
+      input.style.fontSize = '2em';
+      input.style.transform = 'translate(8%, -20%)';
+      input.style.width = '200px'
+
+    }
+
+    if (window.matchMedia("(min-width: 1920px)").matches) {
+      input.style.fontSize = '2em';
+      input.style.transform = 'translate(8%, -20%)';
+      input.style.width = '200px'
+
+    }
 
     nome.parentNode.insertBefore(input, nome);
 
@@ -44,6 +59,7 @@ editar.addEventListener('click', () => {
     inputCriado = true;
   }
 });
+
 
 function togglemenu(){
 

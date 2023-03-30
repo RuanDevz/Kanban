@@ -8,6 +8,12 @@
 
 }
 
+body{
+    background: #FBFAFF;
+}
+
+  
+
 .container-header{
     background: #7C3AED;
 }
@@ -159,7 +165,7 @@ img#editar{
 }
 
 .container_bloco{
-    background:#FBFAFF ;
+    background:#FBFAFF;
 }
 
 div#bloco{
@@ -232,13 +238,14 @@ footer a{
         bottom: 0;
         width: 15%;
         overflow-y: auto;
-        height: 107.5vh;
+        height: 106.1vh;
     }
 
     .container_bloco{
         display: flex;
         margin-left: 190px;
         max-width: 1090px;
+        margin: 0 auto;
     }
 
     h2#titulo{
@@ -314,5 +321,37 @@ footer a{
     footer{
         margin: 0;
         padding: 30px 0px;
+    }
+
+    footer a:hover{
+        text-decoration: underline;
+    }
+}
+
+@media screen and (min-width: 1920px){
+    .container_first{
+        margin-left: 1500px;
+        max-width:1500px;
+        margin: 0 auto;
+    }
+
+    .container_bloco{
+        max-width:1650px;
+        margin-left: 280px;
+    }
+
+    .vertigo-titles{
+        margin-left: 135px;
+    }
+
+    button#filtrar{
+        position: absolute;
+        left: 20%;
+        transform: translate(-12%,-8%);
+    }
+
+    footer{
+        padding: 60px 0px;
+        margin: 0;
     }
 }
