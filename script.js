@@ -25,6 +25,7 @@ editar.addEventListener('click', () => {
     input.style.textDecoration = 'underline';
     input.maxLength = '11';
     input.style.background = '#FBFAFF'
+    nome.style.padding = '16px'
 
     if (window.matchMedia("(min-width: 1280px)").matches) {
       input.style.fontSize = '2em';
