@@ -265,18 +265,23 @@ footer a{
     .vertigo-titles{
         display: flex;
         justify-content: space-between;
+        flex-direction: row;
     }
     
     .vertigo-titles h1{
         font-size: 2em;
-        margin-left: 30px;
+        margin-left: 20px;
     }
 
     img#editar{
         position: absolute;
         top: 0;
         left: 0;
-        transform: translate(1000%, 90%);
+        transform: translate(1750%, 385%);
+    }
+
+    img#profile{
+        margin-right: 20px;
     }
 
     ul{
@@ -351,6 +356,13 @@ footer a{
     .container_bloco{
         max-width:1650px;
         margin-left: 280px;
+    }
+
+    img#editar{
+        position: absolute;
+        top: 10%;
+        left: 30%;
+        transform: translate(-43%, 3%);
     }
 
     .container-header{

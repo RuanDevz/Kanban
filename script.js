@@ -29,7 +29,7 @@ editar.addEventListener('click', () => {
 
     if (window.matchMedia("(min-width: 1280px)").matches) {
       input.style.fontSize = '2em';
-      input.style.transform = 'translate(8%, -20%)';
+      input.style.transform = 'translate(11%, 2%)';
       input.style.width = '200px'
 
     }
@@ -74,7 +74,6 @@ function togglemenu(){
     menu.classList.add('fa-bars')
   }
 }
-
 
 
 
