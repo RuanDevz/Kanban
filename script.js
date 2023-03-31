@@ -1,5 +1,4 @@
 // VARIAVEIS
-
 const editar = document.getElementById('editar');
 const nome = document.getElementById('nome');
 const imagem = document.getElementById('imagem');
@@ -7,8 +6,10 @@ let inputCriado = false;
 
 const menu = document.getElementById('menu')
 const lista = document.querySelector('ul')
+
 //EVENTOS
 menu.addEventListener('click', togglemenu)
+
 // FUNCOES 
 editar.addEventListener('click', () => {
   if (!inputCriado) {
@@ -36,7 +37,7 @@ editar.addEventListener('click', () => {
 
     if (window.matchMedia("(min-width: 1920px)").matches) {
       input.style.fontSize = '2em';
-      input.style.transform = 'translate(8%, -20%)';
+      input.style.transform = 'translate(11%, 0%)';
       input.style.width = '200px'
 
     }
@@ -57,10 +58,12 @@ editar.addEventListener('click', () => {
       }
     });
 
+    const icon = editar.getElementsByTagName('i')[0];
+    icon.classList.add('pointer');
+
     inputCriado = true;
   }
 });
-
 
 function togglemenu(){
 
@@ -74,6 +77,3 @@ function togglemenu(){
     menu.classList.add('fa-bars')
   }
 }
-
-
-

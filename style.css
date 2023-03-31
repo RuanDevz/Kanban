@@ -32,6 +32,11 @@ body{
     color: #fff;
 }
 
+.pointer {
+    cursor: pointer;
+  }
+  
+
 
 
 ul{
@@ -380,7 +385,7 @@ footer a{
     }
 
     footer{
-        margin-top: 70px;
+        margin-top: 54px;
     }
 
 ::-webkit-scrollbar {
